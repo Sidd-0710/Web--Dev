@@ -27,49 +27,49 @@
 
 
 
-// // Rectangle class with area and paint methods
-// class Rectangle {
-//   // Constructor with width, height and color properties
-//   constructor(width, height, color) {
-//     this.width = width;
-//     this.height = height;
-//     this.color = color;
-//   }
+// Rectangle class with area and paint methods
+class Rectangle {
+  // Constructor with width, height and color properties
+  constructor(width, height, color) {
+    this.width = width;
+    this.height = height;
+    this.color = color;
+  }
 
-//   // Method to calculate area of rectangle
-//   area() {
-//     const area = this.width * this.height;
-//     return area;
-//   }
+  // Method to calculate area of rectangle
+  area() {
+    const area = this.width * this.height;
+    return area;
+  }
 
-//   // Method to paint rectangle with color
-//   paint() {
-//     console.log(`Painting with color ${this.color}`);
-//   }
-// }
+  // Method to paint rectangle with color
+  paint() {
+    console.log(`Painting with color ${this.color}`);
+  }
+}
 
-// // Create a instance/object of Rectangle class
-// const rect = new Rectangle(2, 4, "Blue");
+// Create a instance/object of Rectangle class
+const rect = new Rectangle(2, 4, "Blue");
 
-// // Call area method using the instance and store the result in a variable
-// const area = rect.area();
+// Call area method using the instance and store the result in a variable
+const area = rect.area();
 
-// // Log the area of the rectangle
-// console.log(area); // Output: 8
+// Log the area of the rectangle
+console.log(area); // Output: 8
 
-// // Call paint method using the instance
-// rect.paint(); // Output: Painting with color red
+// Call paint method using the instance
+rect.paint(); // Output: Painting with color red
 
-// // Create another instance/object of Rectangle class
-// // const rect2 = new Rectangle(3, 6, "blue");
+// Create another instance/object of Rectangle class
+// const rect2 = new Rectangle(3, 6, "blue");
 
-// // Call area method using the instance and store the result in a variable
-// // const area2 = rect2.area();
+// Call area method using the instance and store the result in a variable
+// const area2 = rect2.area();
 
-// // Log the area of the rectangle
-// // console.log(area2); // Output: 18
+// Log the area of the rectangle
+// console.log(area2); // Output: 18
 
-// // Call paint method using the instance
-// // rect2.paint(); // Output: Painting with color blue
+// Call paint method using the instance
+// rect2.paint(); // Output: Painting with color blue
 
 
