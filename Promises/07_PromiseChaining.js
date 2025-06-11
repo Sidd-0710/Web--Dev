@@ -5,6 +5,11 @@ Q: Write code that
     - logs Hello There 5 seconds after step 2
 */
 
+
+//Promise chaining in JavaScript is a technique that allows you to execute multiple asynchronous operations in sequence, where each operation depends on the result of the previous one. It's done by calling .then() methods one after another on a Promise. 
+
+
+
 // Has Callback Hell - Print Hi, Hello, Hello There in sequence with 1, 3, 5 seconds delay
 setTimeout(function () {
     // print Hi after 1 second delay
