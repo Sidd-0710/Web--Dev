@@ -8,3 +8,6 @@ const contents = fs.readFileSync("a.txt", "utf-8"); // synchronous way of readin
 
 // print the contents of the file 
 console.log(contents); 
+
+  // Note: The above code will block the event loop until the file is read completely.
+// Output: The content of a.txt will be printed to the console  
