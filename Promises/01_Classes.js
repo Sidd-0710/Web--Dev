@@ -28,37 +28,37 @@
 
 
 // Rectangle class with area and paint methods
-class Rectangle {
-  // Constructor with width, height and color properties
-  constructor(width, height, color) {
-    this.width = width;
-    this.height = height;
-    this.color = color;
-  }
+// class Rectangle {
+//   // Constructor with width, height and color properties
+//   constructor(width, height, color) {
+//     this.width = width;
+//     this.height = height;
+//     this.color = color;
+//   }
 
-  // Method to calculate area of rectangle
-  area() {
-    const area = this.width * this.height;
-    return area;
-  }
+//   // Method to calculate area of rectangle
+//   area() {
+//     const area = this.width * this.height;
+//     return area;
+//   }
 
   // Method to paint rectangle with color
-  paint() {
-    console.log(`Painting with color ${this.color}`);
-  }
-}
+//   paint() {
+//     console.log(`Painting with color ${this.color}`);
+//   }
+// }
 
 // Create a instance/object of Rectangle class
-const rect = new Rectangle(2, 4, "Blue");
+// const rect = new Rectangle(2, 4, "Blue");
 
 // Call area method using the instance and store the result in a variable
-const area = rect.area();
+// const area = rect.area();
 
 // Log the area of the rectangle
-console.log(area); // Output: 8
+// console.log(area); // Output: 8
 
 // Call paint method using the instance
-rect.paint(); // Output: Painting with color red
+// rect.paint(); // Output: Painting with color red
 
 // Create another instance/object of Rectangle class
 // const rect2 = new Rectangle(3, 6, "blue");
@@ -73,3 +73,22 @@ rect.paint(); // Output: Painting with color red
 // rect2.paint(); // Output: Painting with color blue
 
 
+class User {
+  constructor(name) {
+    this.name = name;
+    this.score = 0; // All new users start with 0 points
+  }
+
+  increaseScore() {
+    this.score++;
+    console.log(`${this.name}'s score is now ${this.score}`);
+  }
+}
+
+// Now, creating users is fast, clean, and consistent!
+let user1 = new User('Alice');
+let user2 = new User('Bob');
+let user3 = new User('Charlie');
+
+user1.increaseScore(); // Output: Alice's score is now 1
+user2.increaseScore(); // Output: Bob's score is now 1  
