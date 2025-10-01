@@ -3,25 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO Do list </title>
+    <title>Simple to do list </title>
 </head>
 <body>
-    <input type="text"></input>
-    <button onclick="addTodo( )">Add todo</button>
+            <input type="text">
+
 </body>
-
-
-<script>
-    function  addTodo( ){
-       const inputEl = document.querySelector("input");
-       const value = inputEl.value;
-
-       const newDivEL = document.createElement("div");
-         newDivEL.innerText = value;
-
-
-        document.querySelector("body").appendChild(newDivEL)
-    }
-
-</script>
 </html>
